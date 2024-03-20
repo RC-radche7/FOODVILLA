@@ -15,7 +15,7 @@ const PaymentDetails = () => {
           </div>
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-700">Net Banking</label>
-            <input type="text"  name="cashOnDelivery" className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" placeholder="Pay with Bank" />
+            <input type="text"  name="netBanking" className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md" placeholder="Pay with Bank" />
           </div>
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-700">Cash On Delivery</label>
