@@ -1,5 +1,5 @@
 {
-  "name": "practice",
+  "name": "y",
   "version": "1.0.0",
   "description": "This is namaste react",
   "scripts": {
@@ -9,12 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RC-radche7/React-Practice.git"
+    "url": "git+https://github.com/RC-radche7/FOODVILLA.git"
   },
-  "keywords": [
-    "react",
-    "radhika"
-  ],
+  "keywords": [],
   "author": "\"Radhika\"",
   "license": "ISC",
   "bugs": {

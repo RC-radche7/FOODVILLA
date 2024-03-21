@@ -21,7 +21,8 @@ const Body = () => {
   
 
   const fetchData = async () => {
-    const data = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4415803&lng=78.3576968&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING');
+    const data = await fetch(
+      'https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4415803&lng=78.3576968&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING');
     const json = await data.json();
     //console.log(json);
     setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants ??[]);
